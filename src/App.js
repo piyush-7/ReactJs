@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Student from "./Studenṭ";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App =()=>{
+
+return(<div>
+    
+    <Student name="Piyush" city="indore"/>
+    <Student name="Rahul" city="bhopal"/>
+    <Student name="sonam" city="kota"/>
+    <Student name="nilesh" city="jaipur"/>
+    <Student name="richa" city="ahemedabaad"/>
+    
+    </div>)
 }
+   
+    
 
 export default App;
